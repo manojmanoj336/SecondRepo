@@ -1,0 +1,9 @@
+spring.application.name=terminal-server
+server.port=${port:5002}
+server.compression.enabled=true
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS=true
+spring.jackson.time-zone=UTC
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.serviceUrl.defaultZone=http://localhost:8807/eureka

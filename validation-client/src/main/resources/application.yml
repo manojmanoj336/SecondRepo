@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: validation-client
+  
+server:
+  port: 5555
+ 
+# -- Configure for Ribbon:
+  
+ping-server:
+  ribbon:
+    eureka:
+      enabled: false # Disable Default Ping
+    listOfServers: localhost:8000,localhost:8001,localhost:8002
+    ServerListRefreshInterval: 15000
+     
+# -- Configure Discovery Client (Eureka Client).    
+# Configure this application to known "Service Registration".
+ 
+eureka:
+  instance:
+    appname: validation-client
+  client:   
+    fetchRegistry: true
+    serviceUrl:
+     defaultZone: http://localhost:9000/eureka/
+    
+    
