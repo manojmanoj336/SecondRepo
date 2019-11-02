@@ -7,10 +7,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 @EnableEurekaServer
 public class DiscoveryServerApp {
-	/*public void grtDa()
+	public void grtDa()
 	{
-		
-	}*/
+		System.out.println("hiiiii");
+	}
 	
   public static void main(String[] args) {
     SpringApplication.run(DiscoveryServerApp.class, args);
