@@ -10,7 +10,6 @@ public class DiscoveryServerApp {
 	public void grtDa()
 	{
 		System.out.println("hiiiii");
-		System.out.println("--------------------------");
 	}
 	
   public static void main(String[] args) {
