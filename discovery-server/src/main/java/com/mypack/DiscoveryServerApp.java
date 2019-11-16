@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class DiscoveryServerApp {
 	public void grtDa()
 	{
-		System.out.println("hello");
+		System.out.println("hellomk");
 	}
 	
   public static void main(String[] args) {
