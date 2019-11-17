@@ -10,6 +10,7 @@ public class DiscoveryServerApp {
 	public void grtDa()
 	{
 		System.out.println("hellomk");
+		System.out.println("hellomano");
 	}
 	
   public static void main(String[] args) {
