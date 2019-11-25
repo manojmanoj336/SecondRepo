@@ -5,3 +5,4 @@ logging.level.com.netflix.eureka=OFF
 logging.level.com.netflix.eureka.discovery=OFF
 eureka.client.serviceUrl.defaultZone= http://localhost:8807/eureka
 spring.freemarker.prefer-file-system-access=false
+#uuuuuuuuuuuuuutoday for test
